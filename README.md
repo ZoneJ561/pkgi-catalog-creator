@@ -42,7 +42,7 @@ PKGI Catalog Creator is made for building PSP PKGI Enhanced catalog files withou
 - Movie/video UMD ISOs stay separate from game ISOs.
 - Music Album ZIPs, PSX ZIPs, Movie ZIPs, TV Show ZIPs, and Homebrew ZIPs stay in their matching catalog files.
 - Apps and emulators use their own ZIP package catalogs.
-- Homebrew uses pkgi_homebrew.txt and accepts ZIP packages only.
+- Homebrew uses `pkgi_homebrew.txt` and accepts ZIP packages only.
 
 ### Updates
 
@@ -73,6 +73,7 @@ PKGI Enhanced reads different catalog files for different content sections. PKGI
 | `pkgi_wallpapers.txt` | PSP wallpaper images like JPG, PNG, BMP, and GIF | Saves to `ms0:/PSP/PHOTO` |
 | `pkgi_emulators.txt` | Emulator ZIP packages | User-selected folder in PKGI Enhanced |
 | `pkgi_apps.txt` | Application ZIP packages | User-selected folder in PKGI Enhanced |
+| `pkgi_homebrew.txt` | Homebrew ZIP packages only | Handled by PKGI Enhanced |
 | `dbformat.txt` | Field layout used by PKGI | Exported with catalog bundles |
 | `config.sample.txt` | Example PSP-side config notes for the exported files | Reference file only |
 
