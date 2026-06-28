@@ -4,7 +4,7 @@
   <img src="logo.png" alt="PKGI Catalog Creator logo" width="320">
 </p>
 
-**Build, validate, and export PKGI Enhanced catalog files for PSP games, PSX, media, apps, emulators, and Archive.org collections from one desktop app.**
+**Build, validate, and export PKGI Enhanced catalog files for PSP games, PSX, media, homebrew, apps, emulators, and Archive.org collections from one desktop app.**
 
 [![Latest Release](https://img.shields.io/github/v/release/ZoneJ561/pkgi-catalog-creator?label=latest%20release)](https://github.com/ZoneJ561/pkgi-catalog-creator/releases/latest)
 [![Platform](https://img.shields.io/badge/platform-Windows-0078D4)](https://github.com/ZoneJ561/pkgi-catalog-creator/releases/latest)
@@ -40,8 +40,9 @@ PKGI Catalog Creator is made for building PSP PKGI Enhanced catalog files withou
 - Game ISO and CSO entries export through `pkgi_games.txt`.
 - NPS PSP games and NPS PSX packages use separate NPS catalog files.
 - Movie/video UMD ISOs stay separate from game ISOs.
-- Music Album ZIPs, PSX ZIPs, Movie ZIPs, and TV Show ZIPs stay in their matching catalog files.
+- Music Album ZIPs, PSX ZIPs, Movie ZIPs, TV Show ZIPs, and Homebrew ZIPs stay in their matching catalog files.
 - Apps and emulators use their own ZIP package catalogs.
+- Homebrew uses pkgi_homebrew.txt and accepts ZIP packages only.
 
 ### Updates
 
