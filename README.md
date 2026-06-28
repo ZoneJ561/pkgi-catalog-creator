@@ -73,7 +73,7 @@ PKGI Enhanced reads different catalog files for different content sections. PKGI
 | `pkgi_wallpapers.txt` | PSP wallpaper images like JPG, PNG, BMP, and GIF | Saves to `ms0:/PSP/PHOTO` |
 | `pkgi_emulators.txt` | Emulator ZIP packages | User-selected folder in PKGI Enhanced |
 | `pkgi_apps.txt` | Application ZIP packages | User-selected folder in PKGI Enhanced |
-| `pkgi_homebrew.txt` | Homebrew ZIP packages only | Handled by PKGI Enhanced |
+| `pkgi_homebrew.txt` | Homebrew ZIP packages only | User-selected folder in PKGI Enhanced |
 | `dbformat.txt` | Field layout used by PKGI | Exported with catalog bundles |
 | `config.sample.txt` | Example PSP-side config notes for the exported files | Reference file only |
 
